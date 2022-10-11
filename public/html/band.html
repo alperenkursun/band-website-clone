@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/band.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <script
+      src="https://kit.fontawesome.com/a3e10ed635.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Band Template</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav">
+        <div id="nav-div-1">
+          <div class="nav-div-1-ul1">
+            <a href="#" id="home" class="nav-div-1-ul1-li">HOME</a>
+            <span class="gozukmesin" id="deneme2">
+            <a href="#theband" id="band" class="nav-div-1-ul1-li kapla">BAND</a>
+            <a href="#tourdates" id="tour"  class="nav-div-1-ul1-li kapla">TOUR</a>
+            <a href="#contacts" id="contact" class="nav-div-1-ul1-li kapla">CONTACT</a>
+            <a href="#" id="merch" class="merch nav-div-1-ul1-li kapla">MERCH</a>
+            </span>
+            <div id="moreli">
+              <a id="more" href="#">MORE <i class="fa fa-caret-down"></i></a>
+              <ul id="nav-div-1-ul2">
+                <li class="altnav" id="altnav1"><a href="#">Merchandise</a></li>
+                <li class="altnav" id="altnav2"><a href="#">Extras</a></li>
+                <li class="altnav" id="altnav3"><a href="#">Media</a></li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+
+      <div id="search" onclick="funcDisplay2()">
+        <div class="menubar-container">
+          <i  class="fa-solid fa-bars menubar" onclick="funcDisplay()"></i>
+        </div>
+        <i class="fa-solid fa-magnifying-glass menubar2"></i>
+      </div>
+    </header>
+
+    <div id="main-header">
+
+      <div class="mySlides image-container">
+        <img src="../img/main-header-1.jpg" alt="">
+        <div class="img-text" id="los-angeles">
+          <h2>Los Angeles</h2>
+          <p><b> We had the best time playing at Venice Beach!</b></p>
+        </div>
+      </div>
+
+      
+      <div class="mySlides image-container">
+        <img src="../img/main-header-2.jpg" alt="">
+        <div class="img-text">
+          <h2>New York</h2>
+          <p><b>The atmosphere in New York is lorem ipsum</b> .</p>
+      </div>
+      </div>
+      
+     
+      <div class="mySlides image-container">
+        <img src="../img/main-header-3.jpg" alt="">
+        <div class="img-text">
+          <h2>Chicago</h2>
+          <p><b>Thank you, Chicago - A night we won't forget.</b> </p>
+        </div>
+      </div>
+      
+      </div>
+     
+    <div id="theband">
+      <div id="theband-container" class="container">
+        <h2>THE BAND</h2>
+        <p><i>We love music</i></p>
+        <p id="p1">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div id="name-container">
+          <div class="name-container-item">
+            <h5>Name</h5>
+            <img src="../img/bandmember.jpg" alt="">
+          </div>
+
+          <div class="name-container-item">
+            <h5>Name</h5>
+            <img src="../img/bandmember.jpg" alt="">
+          </div>
+
+          <div class="name-container-item">
+            <h5>Name</h5>
+            <img src="../img/bandmember.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tourdates">
+      <h2>TOUR DATES</h2>
+      <p><i>Remember to book your tickets!</i></p>
+      <div id="months" class="container">
+        <div id="september" class="month">
+          <p class="p-1">September</p>
+          <p class="p-2">Sold out</p>
+        </div>
+        <div id="october" class="month">
+          <p class="p-1">October</p>
+          <p class="p-2">Sold out</p>
+        </div>
+        <div id="november" class="month">
+          <p class="p-1">November</p>
+          <p class="p-3">3</p>
+        </div>
+      </div>
+      <div id="cards" class="container">
+        <div id="card-1" class="card">
+
+          <img src="../img/newyork.jpg" alt="">
+          <h4>New York</h4>
+          <p class="p-1">Fri 27 Nov 2016</p>
+          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          <button onclick="document.getElementById('upmodal').style.display='block'">Buy Tickets</button>
+        </div>
+
+        <div class="card">
+  
+          <img src="../img/paris.jpg" alt="">
+          <h4>Paris</h4>
+          <p class="p-1">Sat 28 Nov 2016</p>
+          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          <button onclick="document.getElementById('upmodal').style.display='block'">Buy Tickets</button>
+        </div>
+
+        <div class="card">
+
+          <img src="../img/sanfran.jpg" alt="">
+          <h4>San Francisco</h4>
+          <p class="p-1">Sun 29 Nov 2016</p>
+          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          <button onclick="document.getElementById('upmodal').style.display='block'">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="upmodal">
+    <div id="modal">
+      <span id="x" onclick="document.getElementById('upmodal').style.display='none'" >x</span>
+      <p id="modal-header"><i class="fa-solid 
+          fa-suitcase"></i> Tickets</p>
+        <p id="tickets"><i class="fa-solid fa-cart-shopping"></i> Tickets, $15 per person</p>
+        <input type="text" placeholder="How many?">
+        <p  id="sendto"><i class="fa-solid fa-user"></i> Send To</p>
+        <input type="mail" placeholder="Enter email">
+        <button id="pay">PAY <i class="fa-solid fa-check"></i></button>
+        <div id="modal-footer">
+          <button onclick="document.getElementById('upmodal').style.display='none'" >Close <i class="fa-solid fa-xmark"></i></button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+    </div>
+  </div>
+
+    <div id="contacts">
+      <h1>CONTACT</h1>
+      <p><i class="slogani">Fan? Drop a note!</i></p>
+      
+      <div id="infos" class="container">
+       <div id="info-1">
+        <p><i class="fa fa-map-marker" style="width: 30px;"></i> Chicago,US</p>
+        <p><i class="fa fa-phone" style="width:30px;"></i> Phone:+00 151515</p>
+        <p><i class="fa fa-envelope" style="width:30px;"></i> Email: mail@mail.com</p>
+       </div>
+   
+ 
+       <div id="info-2">  
+         <input type="text" placeholder="Name" id="name">
+         <input type="text" placeholder="Email" id="email">
+         <input type="text" placeholder="Message" id="message">
+         <button id="send">SEND</button>
+       </div>
+      </div>
+     
+    </div>
+
+    <div id="map">
+      <img src="../img/map.jpg" alt="" style="width: 100%;">
+    </div>
+
+    <footer class="container" style="color:black; padding: 64px 16px; text-align: center;">
+      <div id="i" style="text-align:center ; padding-bottom: 20px;">
+        <i class="fa-brands fa-facebook-square fa-2x" style="color:black; opacity: 0.6;"></i>
+      <i class="fa-brands fa-instagram fa-2x" style="color:black; opacity: 0.6;"></i>
+      <i class="fa-brands fa-snapchat fa-2x" style="color:black; opacity: 0.6;"></i>
+      <i class="fa-brands fa-pinterest-p fa-2x" style="color:black; opacity: 0.6;"></i>
+      <i class="fa-brands fa-twitter fa-2x" style="color:black; opacity: 0.6;"></i>
+      <i class="fa-brands fa-linkedin-in fa-2x" style="color:black; opacity: 0.6;"></i>
+      </div>
+      <p style="color:black; opacity: 0.6;">Powered by <a href="https://www.w3schools.com/w3css/default.asp" style="color:black; border-bottom: 1px solid black; opacity: 0.6;" target="_blank">w3.css</a></p>
+    </footer>
+
+    
+
+    <script>
+      //click menubar open-close
+      function funcDisplay() {
+        var element = document.getElementById("deneme2");
+        element.classList.toggle("display");
+      }
+
+      function funcDisplay2() {
+        var element = document.getElementById("deneme2");
+        element.classList.toggle("display2");
+      }
+
+      //Automatic Slideshow - change image every 4 seconds.
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000);    
+      }
+
+      //When the user clicks anywhere outside of the modal, close it
+
+      var modal = document.getElementById('upmodal');
+      window.onclick = function(event) {
+      if (event.target == upmodal) {
+      upmodal.style.display = "none";
+  }
+}
+
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1096 @@
+$secondary-color: rgb(244, 67, 54);
+$third-color: rgb(204, 204, 204);
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*nav-bar-start*/
+
+.nav-div-1-ul1 {
+  list-style: none;
+}
+
+#nav-div-1-ul2 {
+  display: none;
+  top: 58px;
+  left: 0;
+}
+
+.gozukmesin {
+  position: relative;
+  top: 14px;
+  background-color: #000;
+  height: 30px;
+}
+
+#more {
+  position: relative;
+  top: 14px;
+  padding: 16px 24px 14px 24px !important;
+  &:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+    i {
+      background-color: rgb(204, 204, 204);
+      color: black;
+    }
+  }
+}
+
+#moreli {
+  height: 46px;
+}
+
+#moreli {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  &:hover {
+    #more {
+      background-color: $third-color;
+      color: #000;
+      i {
+        background-color: $third-color;
+        color: #000;
+      }
+    }
+    ul {
+      width: 50px;
+      height: 50px;
+      display: block;
+      position: absolute;
+      list-style: none;
+      left: 0px;
+      top: 46px;
+      li {
+        background-color: #fff;
+      }
+      li a {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    #altnav1 {
+      display: block;
+      position: absolute;
+      list-style: none;
+      left: 0;
+      top: 0px;
+      padding: 8px 30px 8px 8px !important;
+      &:hover {
+        background-color: $third-color;
+      }
+      a {
+        padding: 8px 30px 8px 8px !important;
+
+        &:hover {
+          background-color: $third-color;
+        }
+      }
+    }
+
+    #altnav2 {
+      display: block;
+      position: absolute;
+      list-style: none;
+      left: 0;
+      top: 35px;
+      padding: 8px 30px 8px 8px !important;
+      &:hover {
+        background-color: $third-color;
+      }
+      a {
+        padding: 8px 73.5px 8px 8px !important;
+        &:hover {
+          background-color: $third-color;
+        }
+      }
+    }
+
+    #altnav3 {
+      display: block;
+      position: absolute;
+      list-style: none;
+      left: 0;
+      top: 69px;
+      padding: 8px 30px 8px 8px !important;
+      &:hover {
+        background-color: $third-color;
+      }
+      a {
+        padding: 8px 73.5px 8px 8px !important;
+        &:hover {
+          background-color: $third-color;
+        }
+      }
+    }
+  }
+}
+
+#nav-div-1 {
+  .nav-div-1-ul1 {
+    display: flex;
+    background-color: #000;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000 !important;
+  height: 46.5px;
+  position: fixed;
+  width: 100%;
+  flex-wrap: nowrap;
+  z-index: 5;
+
+  #search {
+    padding: 14px 24px;
+    background-color: #000;
+    &:hover {
+      background-color: $secondary-color;
+      cursor: pointer;
+      i {
+        background-color: $secondary-color;
+        cursor: pointer;
+      }
+    }
+    i {
+      background-color: #000;
+    }
+  }
+}
+
+#nav-div-1-ul1 a {
+  padding: 12px 24px;
+}
+
+nav {
+  background-color: #000;
+  a {
+    background-color: #000;
+  }
+
+  i {
+    background-color: #000;
+  }
+}
+
+.merch {
+  display: none !important;
+}
+
+#nav-div-1 {
+  div {
+    a {
+      padding: 13px 24px;
+    }
+  }
+}
+
+.nav-div-1-ul1-li {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  list-style: none;
+  &:hover {
+    background-color: rgb(204, 204, 204);
+  }
+  a {
+    height: 46px;
+  }
+  &:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+    cursor: pointer;
+    border-top-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+
+    a,
+    i {
+      background-color: rgb(204, 204, 204);
+      color: black;
+      cursor: pointer;
+      border-top-color: rgb(204, 204, 204);
+      border-bottom-color: rgb(204, 204, 204);
+    }
+  }
+
+  nav {
+    height: 46px;
+  }
+
+  #nav-div-1-ul2 {
+    li {
+      a {
+        padding: 8px 30px 8px 8px !important;
+      }
+    }
+  }
+
+  /* #moreli ul li {
+    padding: 12px 24px;
+  }*/
+
+  .altnav a {
+    &:hover {
+      background-color: rgb(204, 204, 204) !important;
+      a {
+        background-color: rgb(204, 204, 204) !important;
+      }
+    }
+  }
+}
+
+.menubar {
+  display: none !important;
+}
+
+.nav-div-1-ul1 .merch {
+  display: none !important;
+}
+
+/*nav-bar-end*/
+
+/*main-header-start*/
+#main-header {
+  width: 100%;
+
+  .image-container {
+    position: relative;
+    height: 759px;
+    z-index: -1;
+    .img-text {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 0%);
+      text-align: center;
+      z-index: 1;
+
+      h2 {
+        font-size: 24px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 15px;
+        z-index: 2;
+      }
+
+      p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        z-index: 2;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    top: 46px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+/*main-header-end*/
+
+/*theband-start*/
+#theband {
+  height: 750px;
+  #theband-container {
+    padding: 125px 16px;
+    text-align: center;
+    h2 {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      margin: 10px 0;
+      font-size: 30px;
+      letter-spacing: 4px;
+    }
+
+    #name-container {
+      padding: 32px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .name-container-item {
+        width: 33.3%;
+      }
+
+      img {
+        margin-bottom: 16px;
+        width: 153px;
+        height: 153px;
+      }
+    }
+
+    h5 {
+      margin: 15px 0;
+      font-size: 15px;
+      line-height: 1.5;
+      font-family: "Lato", sans-serif;
+
+      font-weight: 400 !important;
+    }
+
+    #p1 {
+      text-align: justify !important;
+      margin: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-text-size-adjust: 100%;
+
+      i {
+        display: inline-block;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        opacity: 0.75;
+        margin: 15px 0;
+      }
+    }
+
+    h2,
+    h5,
+    p {
+      color: black;
+      i {
+        color: black;
+      }
+    }
+  }
+}
+/*theband-end*/
+
+/*tourdate-start*/
+#tourdates {
+  padding: 64px 16px 110px 16px !important;
+  background-color: #000;
+  text-align: center;
+
+  h2 {
+    letter-spacing: 4px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+  p {
+    i {
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      opacity: 0.6;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      display: inline-block;
+    }
+  }
+
+  #months {
+    margin-bottom: 35px;
+    .month {
+      padding: 8px 16px;
+      background-color: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    #september,
+    #october {
+      display: flex;
+    }
+
+    #november {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .p-1 {
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #757575 !important;
+      display: inline;
+    }
+
+    .p-2 {
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 0 8px;
+      margin: 0 0 0 16px;
+      background-color: #f44336 !important;
+      display: inline;
+    }
+
+    .p-3 {
+      border-radius: 50%;
+      background-color: #000;
+      margin-right: 16px;
+      padding: 0 8px;
+      display: inline;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  #cards {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    .card {
+      background-color: white;
+      img {
+        width: 245px;
+        height: 184px;
+        &:hover {
+          -webkit-filter: brightness(70%);
+        }
+      }
+
+      h4 {
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        color: black;
+        font-weight: bold;
+        text-align: start;
+        padding: 0 16px 0 16px;
+        margin: 15px 0;
+      }
+
+      .p-1 {
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #757575 !important;
+        display: block;
+        padding: 0 16px 0 16px;
+        margin: 15px 0;
+        text-align: start !important;
+      }
+
+      p {
+        color: black;
+        text-align: start;
+        padding: 0 16px 0 16px;
+        margin: 15px 0;
+      }
+
+      button {
+        color: #fff;
+        background-color: #000 !important;
+        margin-bottom: 16px;
+        border: none;
+        display: block;
+        overflow: hidden;
+        padding: 8px 16px;
+        text-align: start !important;
+        margin-left: 16px;
+        &:hover {
+          background-color: $third-color !important;
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+/*tourdate-end*/
+
+/*modal-start*/
+#upmodal {
+  z-index: 10;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  #modal {
+    position: relative;
+    bottom: 300px;
+    margin: 0 301px;
+    background-color: white;
+    animation: a1 0.4s forwards ease-in;
+    opacity: 0;
+
+    @keyframes a1 {
+      to {
+        bottom: 0;
+        opacity: 1;
+      }
+    }
+
+    #x {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: #009688;
+      font-size: 24px;
+      border: none;
+      padding: 8px 16px;
+      vertical-align: middle;
+      text-decoration: none;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5;
+      overflow: hidden;
+
+      &:hover {
+        color: black;
+        background-color: $third-color;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 32px 16px;
+    height: 129px !important;
+    vertical-align: center;
+
+    i {
+      margin-right: 16px;
+      font-size: 30px !important;
+    }
+  }
+
+  #tickets {
+    color: black !important;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    padding: 0 16px;
+
+    i {
+      color: black !important;
+    }
+  }
+
+  input[type="text"] {
+    width: 885px !important;
+    border: 1px solid #ccc;
+    padding: 8px;
+    overflow: visible;
+    margin: 0 16px;
+  }
+
+  #sendto {
+    color: black !important;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    padding: 0 16px;
+
+    i {
+      color: black !important;
+    }
+  }
+
+  input[type="mail"] {
+    width: 885px;
+    border: 1px solid #ccc;
+    padding: 8px 8px;
+    overflow: visible;
+    margin: 0 16px;
+  }
+
+  #pay {
+    color: white !important;
+    margin: 16px 16px;
+    padding: 16px 0px;
+    width: 885px;
+    background-color: #009688 !important;
+    border: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+
+    &:hover {
+      color: black !important;
+      background-color: $third-color !important;
+      cursor: pointer;
+      i {
+        color: black !important;
+        background-color: $third-color !important;
+        cursor: pointer;
+      }
+    }
+    i {
+      color: white;
+    }
+  }
+
+  #modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+    button {
+      background-color: #f44336;
+      margin: 16px 0;
+      border: none;
+      padding: 8px 16px;
+      vertical-align: middle;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      &:hover {
+        color: black;
+        background-color: $third-color;
+        cursor: pointer;
+        i {
+          color: inherit;
+        }
+      }
+    }
+
+    p {
+      margin: 15px 0;
+      color: black;
+      a {
+        color: rgb(74, 169, 249);
+        border-bottom: 1px solid rgb(74, 169, 249);
+      }
+    }
+  }
+}
+/*modal-end*/
+
+/*contact-start*/
+#contacts {
+  padding: 64px 16px;
+  margin: 0 369.6px;
+  h1 {
+    color: #000;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+  p {
+    text-align: center;
+    .slogani {
+      color: #000;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      opacity: 0.6;
+    }
+  }
+
+  #infos {
+    margin-top: 10px;
+    padding: 32px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    #info-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      p {
+        i {
+          color: black;
+        }
+
+        margin-bottom: 6px !important;
+        font-size: 18px !important;
+        color: #000;
+      }
+    }
+
+    #info-2 {
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "message message"
+        ". send";
+      gap: 8px;
+
+      #name {
+        grid-area: name;
+        margin-right: 4px;
+      }
+
+      #email {
+        grid-area: email;
+        margin-left: 4px;
+      }
+
+      #message {
+        grid-area: message;
+      }
+
+      #send {
+        grid-area: send;
+        margin-top: 10px;
+        width: 70px;
+        align-self: center !important;
+        justify-self: right !important;
+        display: inline;
+      }
+
+      input {
+        border: 1px solid #ccc;
+        padding: 8px;
+        margin: 0;
+      }
+
+      button {
+        color: #fff;
+        background-color: #000 !important;
+        margin-bottom: 16px;
+        border: none;
+        display: block;
+        overflow: hidden;
+        padding: 8px 16px;
+        text-align: start !important;
+        margin-left: 16px;
+        &:hover {
+          background-color: $third-color !important;
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+/*contact-end*/
+
+/*footer-start*/
+footer {
+  i {
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+/*footer-end*/
+
+@media (max-width: 578px) {
+  /*nav-bar-start-responsive*/
+  #search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 24px !important;
+    &:hover {
+      background-color: $third-color !important;
+      .menubar {
+        background-color: $third-color;
+        color: #000;
+      }
+    }
+
+    .menubar {
+      display: block !important;
+    }
+
+    .menubar2 {
+      display: none;
+    }
+  }
+
+  #more {
+    display: none;
+
+    nav-div-1-ul2 {
+      display: none !important;
+    }
+  }
+
+  #nav-div-1 #moreli {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+    height: 46px;
+  }
+
+  #nav-div-1-ul1 {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+  }
+
+  .nav-div-1-ul1 {
+    width: 100%;
+    background-color: #000 !important;
+  }
+
+  .nav-div-1-ul1 :first-child {
+    width: 17.5%;
+  }
+
+  .nav-div-1-ul1 .merch {
+    display: block !important;
+  }
+
+  li:not(:first-child) {
+    display: none !important;
+  }
+
+  .display {
+    display: block !important;
+  }
+
+  .display2 {
+    display: block !important;
+  }
+
+  .nav-div-1-ul1 {
+    flex-direction: column;
+  }
+
+  .gozukmesin {
+    display: none;
+    top: 0;
+    width: 100% !important;
+    height: 0 !important;
+
+    .kapla {
+      width: 100%;
+    }
+  }
+
+  #merch {
+    width: 100%;
+    padding: 100px;
+  }
+
+  #home {
+    width: 94px;
+  }
+
+  #search {
+    position: fixed;
+  }
+
+  #band {
+    display: block;
+  }
+
+  #tour {
+    display: block;
+  }
+  #contact {
+    display: block;
+  }
+
+  #merch {
+    display: block;
+  }
+
+  /*nav-bar-end-responsive*/
+
+  /*main-header-start-responsive*/
+  .img-text {
+    visibility: hidden;
+  }
+
+  #main-header {
+    height: 230px;
+  }
+  /*main-header-end-responsive*/
+  .container {
+    width: 480px;
+    margin: 0;
+  }
+  /*theband-start-responsive*/
+
+  #theband {
+    h2 {
+      width: 90vw;
+
+      text-align: center;
+    }
+
+    #p1 {
+      width: 90vw;
+      display: block;
+      text-align: center;
+    }
+
+    p {
+      i {
+        display: block !important;
+        text-align: center;
+      }
+    }
+
+    #name-container {
+      padding: 32px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff !important;
+
+      .name-container-item {
+        width: 255px !important;
+        height: 100%;
+        img {
+          width: 255px !important;
+          height: 255px !important;
+        }
+      }
+    }
+
+    #theband-container {
+      padding: 125px 16px;
+      margin: 0;
+
+      p {
+        i {
+          width: 100%;
+        }
+      }
+    }
+  }
+  /*theband-end-responsive*/
+
+  /*tourdate-start-responsive*/
+  #tourdates {
+    margin-top: 820px;
+    padding: 64px 0px !important;
+
+    #months {
+      width: 100%;
+      padding: 0 16px;
+    }
+
+    #cards {
+      grid-template-columns: 1fr !important;
+      padding: 0 16px;
+      .card {
+        img {
+          width: 100% !important;
+          height: auto;
+        }
+      }
+    }
+  }
+  /*tourdate-end-responsive*/
+
+  /*contact-start-responsive*/
+  #contacts {
+    margin: 64px 0 !important;
+    padding: 0 !important;
+    #infos {
+      grid-template-columns: 1fr;
+
+      #info-1 {
+        margin: 0 8px !important;
+      }
+
+      #info-2 {
+        margin-top: 14px;
+        grid-template-areas:
+          "name"
+          "email"
+          "message"
+          "send";
+
+        #name {
+          grid-area: name;
+          margin: 0 8px !important;
+        }
+
+        #email {
+          grid-area: email;
+          margin: 0 8px !important;
+        }
+
+        #message {
+          margin: 0 8px !important;
+        }
+
+        #send {
+          margin: 0px !important;
+          margin-right: 8px !important;
+        }
+      }
+    }
+  }
+  /*contact-end-responsive*/
+
+  /*modal-start-responsive*/
+  #upmodal {
+    padding-top: 40px;
+    #modal {
+      margin: 0 10px;
+
+      input[type="text"] {
+        width: 432px !important;
+      }
+
+      input[type="mail"] {
+        width: 432px !important;
+      }
+
+      #pay {
+        width: 432px !important;
+      }
+    }
+  }
+  /*modal-end-responsive*/
+}
